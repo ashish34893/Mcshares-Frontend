@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "VC";
+}
+<div class="clearfix"><br /></div>
+<div class="row">
+    <div class="col-md-12">
+        <form action="/home/validatecaptcha" method="POST">
+            <div class="g-recaptcha" data-sitekey="6LeuyKwUAAAAAF7JxaKCSQUEOEVsyW2Ci9GKPd86"></div>
+            <br />
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+</div>
+@section scripts{
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+}
+
+
+
+

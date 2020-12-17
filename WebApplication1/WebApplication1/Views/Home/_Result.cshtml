@@ -1,0 +1,16 @@
+﻿@{ 
+    int Code = Convert.ToInt32(Session["Ses"]);
+}
+<br />
+<div style="margin-top:15%">
+    @if (Code == 200)
+    {
+    <p>@Code: Post Added Successfully</p>
+    }
+    else if(Code==201)
+    {
+        <p>@Code: Post Created Successfully </p>
+    }
+    else
+    { }
+</div>
